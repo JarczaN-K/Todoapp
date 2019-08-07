@@ -34,7 +34,7 @@ Hello ${sessionScope.user.login}!
         <c:forEach var="t" items="${sessionScope.todo}">
             <tr>
                 <th scope="row">1</th>
-                <td><c:out value="${t.text}">Check</c:out></td>
+                <td><c:out value="${t.text}"></c:out></td>
                 <td><button class="btn btn-info">Edit</button></td>
                 <td><button class="btn btn-danger">Delete</button></td>
             </tr>
